@@ -1,0 +1,51 @@
+// Color Palette
+$primary: #2e72d6;
+$secondary: #4688eb;
+$light: #c9e9fe;
+$white: #ffffff;
+$dark: #0d1215;
+$info: #36a4a6;
+$success: #1aa05f;
+$danger: #ed210c;
+$warning: #e0ca1b;
+
+// Body
+body {
+  background: linear-gradient(90deg, $secondary, $info);
+}
+
+// Typography
+$font-family-base: "Montserrat", sans-serif;
+
+$font-size-base: 0.9rem;
+$line-height-base: 1.2;
+
+// Input
+$input-focus-box-shadow: none;
+$input-bg: $white;
+$form-feedback-icon-invalid: none;
+$form-feedback-icon-valid: none; // Hide form validation icon
+
+// Select
+$form-select-focus-box-shadow: none;
+$form-select-box-shadow: none;
+$form-select-focus-width: 0;
+
+//Button
+$btn-focus-box-shadow: none;
+$btn-box-shadow: none;
+$btn-focus-width: 0;
+
+//Checkbox
+$form-check-input-focus-box-shadow: none;
+
+//Accordion
+$accordion-bg: inherit;
+
+// UI
+$enable-rounded: true;
+$border-radius: 0.5rem;
+
+// Pagination
+$pagination-focus-box-shadow: none;
+$pagination-focus-bg: $white;
