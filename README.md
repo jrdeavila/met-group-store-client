@@ -17,9 +17,9 @@ ejecutar el siguiente comando.
 yarn dev
 ```
 
-\*Esto ejecutará la aplicación en el entorno local con
+_Esto ejecutará la aplicación en el entorno local con
 el puerto que esté disponible en ese momento.
-Por lo general es el puerto 5173.
+Por lo general es el puerto 5173._
 
 ### Screenshots
 
@@ -30,7 +30,7 @@ Por lo general es el puerto 5173.
 | <img src="screenshots/stores_web.png">    | <img src="screenshots/stores_mobile.png">    |
 | <img src="screenshots/items_web.png">     | <img src="screenshots/items_mobile.png">     |
 
-## Features
+## Caracteristicas
 
 - React.js
 - Redux-Toolkit
@@ -40,6 +40,6 @@ Por lo general es el puerto 5173.
 - Responsive Plataform
 - Typescript
 
-## Authors
+## Autores
 
 - [@jrdeavila](https://www.github.com/octokatherine)
