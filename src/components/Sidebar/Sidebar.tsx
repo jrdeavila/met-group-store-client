@@ -26,6 +26,7 @@ const Sidebar: React.FC<SidebarInterface> = () => {
 };
 
 const SidebarItem = styled.div<{ active: boolean }>`
+  margin-top: 0.25rem;
   color: var(--bs-gray-800);
   display: flex;
   justify-content: start;
@@ -40,6 +41,11 @@ const SidebarItem = styled.div<{ active: boolean }>`
           background-color: var(--bs-primary);
           border-radius: var(--bs-border-radius);
           color: var(--bs-gray-300);
+          border-bottom: none;
+
+          @media (max-width: 800px) {
+            border-radius: var(--bs-border-radius);
+          }
         `
       : ""}
 
@@ -50,6 +56,17 @@ const SidebarItem = styled.div<{ active: boolean }>`
 
   @media (max-width: 1000px) {
     flex-direction: column;
+  }
+
+  @media (max-width: 800px) {
+    justify-content: center;
+    .item-name {
+      display: none;
+    }
+
+    .item-icon {
+      margin-right: 0;
+    }
   }
 `;
 

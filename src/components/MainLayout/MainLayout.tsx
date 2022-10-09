@@ -52,6 +52,7 @@ const SidebarContent = styled.div`
 `;
 const BodyContent = styled.div<{ fullWidth: boolean }>`
   height: 100%;
+  padding-top: 2%;
   width: ${(props) => (props.fullWidth ? "80%" : "100%")};
   @media (max-width: 500px) {
     width: 100%;
